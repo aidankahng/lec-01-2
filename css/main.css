@@ -28,11 +28,16 @@ Box Model is made up of 4 parts: Content, Padding, Border, Margin
     Border - A border that goes around the padding and content
     Margin - Clears an area outside the border. The margin is transparent
 */
+.box-div {
+    border: 3px solid black;
+    padding: 0;
+}
 
 .box-model {
     border: 5px solid red;
+    background-color: aqua;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
 }
 
 
@@ -253,7 +258,6 @@ div[title*="s"] {
     top: 100px;
     left: 50px;
 }
-
 
 /* position: sticky -  positioned based on the user's scroll position - toggles between relative and fixed, depending on the scroll position */
 #img-3 {
