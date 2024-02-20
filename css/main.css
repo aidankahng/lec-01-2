@@ -1,12 +1,11 @@
 /* Universal Selector */
 
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
-
-
 
 
 .navbar{
@@ -21,8 +20,6 @@
     text-decoration: none;
 }
 
-
-
 /* 
 Box Model is made up of 4 parts: Content, Padding, Border, Margin
     Content - The content of the box, where text and images appear
@@ -31,6 +28,11 @@ Box Model is made up of 4 parts: Content, Padding, Border, Margin
     Margin - Clears an area outside the border. The margin is transparent
 */
 
+.box-model {
+    border: 5px solid red;
+    padding: 10px;
+    margin: 20px;
+}
 
 
 /* Simple Selector */
