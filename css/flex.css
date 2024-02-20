@@ -1,6 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
 .container-1 {
     display: flex;
-    width: 400px;
-    height: 400px;
+    height: 500px;
     border: 3px solid blue;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* align-content: flex-start; */
+}
+
+.item {
+    border: 2px dotted black;
+}
+
+#item-1 {
+    border: 2px solid red;
+    order: 1;
+}
+
+#item-5 {
+    border: 2px solid green;
+    order: -1;
+    align-self: flex-start;
+    justify-self: flex-start;
 }
